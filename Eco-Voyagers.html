@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eco-Voyagers</title>
+<style>
+  body { font-family: Arial, sans-serif; margin:0; background:#f0fff0; color:#333; scroll-behavior: smooth;}
+  header { position: sticky; top:0; display:flex; justify-content:space-between; align-items:center; padding:20px; background-color:#4caf50; color:white; z-index:1000;}
+  header .logo-title { display:flex; align-items:center; gap:10px; }
+  header .logo-title img { height:40px; width:40px; border-radius:50%; object-fit:cover; box-shadow:0 2px 5px rgba(0,0,0,0.3);}
+  nav a { margin:0 10px; color:white; text-decoration:none; font-weight:bold; cursor:pointer; }
+  nav a:hover { text-decoration:underline; }
+  .btn { background-color:white; color:#4caf50; padding:10px 20px; border-radius:20px; font-weight:bold; cursor:pointer; }
+  .hero { display:flex; flex-wrap:wrap; justify-content:space-around; align-items:center; padding:50px 20px; }
+  .hero-text { max-width:500px; }
+  .hero-text h1 { font-size:48px; color:#2e7d32; margin-bottom:20px; }
+  .hero-text p { font-size:18px; margin-bottom:20px; }
+  .hero img { max-width:300px; border-radius:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
+  section { padding:50px 20px; text-align:center; }
+  .features, .cards { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; }
+  .card { background:white; border-radius:15px; padding:20px; width:250px; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+  .card h3 { color:#2e7d32; }
+  input[type=number], input[type=text] { width:80%; padding:8px; margin:5px 0; border-radius:8px; border:1px solid #4caf50; }
+  #chatbox { border:1px solid #4caf50; padding:10px; height:200px; overflow-y:auto; background:white; margin-bottom:10px; text-align:left;}
+  footer { text-align:center; padding:20px; background:#e8f5e9; color:#4caf50; margin-top:40px; }
+  h2 { color:#2e7d32; margin-bottom:20px;}
+  p, li { line-height:1.7; margin-bottom:15px;}
+  ul { list-style-type: disc; padding-left:20px; text-align:left;}
+  .about, .mission, .solution { max-width:900px; margin:auto; text-align:left; }
+</style>
+</head>
+<body>
+
+<header>
+    <h2>Eco-Voyagers</h2>
+
+
+  </div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#mission">Our Mission</a>
+    <a href="#solution">Our Solution</a>
+    <a href="#payment">Support</a>
+  </nav>
+  <button class="btn" onclick="login()">Login</button>
+</header>
+
+<!-- Home Section -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>Save Smart.<br>Save the Planet.</h1>
+    <p>The Smart HydroHavester keeps your drinks fresh, tracks your refills, and helps you reduce single-use plastic waste. Join the movement today!</p>
+    <button class="btn" onclick="buyNow()">Buy Now</button>
+  </div>
+</section>
+
+<!-- Features / Refill Tracker -->
+<section id="features">
+  <h2>Features</h2>
+  <div class="features">
+    <div class="card">
+      <h3>Automated Debris Collection</h3>
+      <p>The boat uses a smart conveyor system that automatically lifts plastic debris out of the water and stores it in a collection bin, allowing for continuous and efficient cleanup..</p>
+    </div>
+    <div class="card">
+      <h3>Modular & Easy to Maintain</h3>
+      <p>The Hydro Harvester is designed with interchangeable parts and a simple framework, making it easy to upgrade, repair, or customize the boat as needed.<p/>
+    </div>
+    <div class="card">
+      <h3>All-Weather Remote Operation</h3>
+      <p>All-Weather Remote OperationThe Hydro Harvester is equipped with a fully waterproof hull and a durable, splash-proof remote control, ensuring reliable operation and control in a variety of weather conditions and water environments.
+  </div>
+</section>
+
+<!-- About Us Section -->
+<section id="about" class="about">
+  <h2>About Us</h2>
+  <p>
+    Eco-Voyagers was founded in 2025 by a passionate team: Titus Mathew, Yatharth, Vivaan Agarwal, Aaradhya Soni, and Shreyansh Kumar from 6E. They were determined to create a product that makes sustainable living fun, easy, and impactful.
+  </p>
+  <p>
+    The inspiration came while seeing the effect on wildlife and the environment, motivated the team to take action. They wanted a solution that combined technology, convenience, and eco-consciousness. This led to the creation of the Smart HydroHarvester that encourages recycling, tracks impact, and even gives smart AI suggestions.
+  </p>
+  <p>
+    Today, Refill Revolution is more than a product—it’s a movement empowering people everywhere to make a positive impact on the planet, one refill at a time.
+  </p>
+</section>
+
+<!-- Mission Section -->
+<section id="mission" class="mission">
+  <h2>Our Mission</h2>
+  <p>
+    At Eco-Voyagers, our mission is simple but powerful: <strong>to reduce single-use plastic worldwide by empowering individuals and communities to adopt sustainable habits effortlessly.</strong> By providing innovative tools like the HydroHatvester, we aim to make eco-conscious living a natural part of daily life, inspiring a global movement toward a cleaner, healthier planet.
+  </p>
+</section>
+
+<!-- Solution Section -->
+<section id="solution" class="solution">
+  <h2>Our Solution</h2>
+  <p>
+    The Smart HydroHarvester is our innovative solution to the global plastic waste crisis. It combines technology, convenience, and sustainability to make eco-friendly choices effortless. Here’s how we solve the problem:
+  </p>
+  <ul>
+    <li><strong>Reusable Design:</strong> This innovative tool provides a direct and effective way to clean plastic pollution from local lakes and rivers..</li>
+    <li><strong>UV Sterilizer:</strong> It can easily access hard-to-reach areas, ensuring a more thorough and complete cleanup than traditional methods..</li>
+    <li><strong>Refill Tracker:</strong> Users can track the number of plastics saved and see their environmental impact.</li>
+    <li><strong>AI Suggestions:</strong> Our smart AI assistant motivates users with tips and personalized goals to save more plastics.</li>
+    <li><strong>Community Engagement:</strong> It serves as an excellent educational tool, inspiring others in your community to take action and learn about environmental conservation.</li>
+  </ul>
+</section>
+
+<!-- Payment/Support Section -->
+<section id="payment" style="padding:50px 20px; text-align:center; background:#e0f7fa; border-radius:20px; margin:40px 20px;">
+  <h2>Support Refill Revolution</h2>
+  <p>Buy the Smart HydroHarvester and help reduce plastic waste worldwide!</p>
+  <button class="btn" onclick="buyNow()">Buy the Smart HydroHarvester for 3400Dhs</button>
+  <p style="margin-top:20px;">Or support us with a donation:</p>
+  <a href="https://www.paypal.com/donate?hosted_button_id=YOUR_BUTTON_ID" target="_blank">
+    <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate with PayPal">
+  </a>
+</section>
+
+<!-- AI Chat Section -->
+<section id="chat" style="background:#d0f0c0; padding:40px 20px; border-radius:20px; margin:40px 20px;">
+  <h2>AI Chat Assistant 🤖</h2>
+  <div id="chatbox"></div>
+  <input type="text" id="userInput" placeholder="Type your question...">
+  <button class="btn" onclick="sendMessage()">Send</button>
+</section>
+
+<footer>
+  <p>© 2025 Eco-Voyagers. All rights reserved.</p>
+</footer>
+
+<script>
+// Button functions
+function buyNow(){ alert("Thank you for choosing Smart Eco-Bottle! We'll redirect you to the shop soon."); }
+function login(){ alert("Login feature coming soon! Stay tuned."); }
+
+// Refill Tracker
+function calculate(){
+  const refills = Number(document.getElementById('refills').value);
+  if(isNaN(refills) || refills<0){ alert("Please enter a valid number."); return; }
+  const bottlesSaved = refills;
+  document.getElementById('result').innerText = `You have saved ${bottlesSaved} plastic bottles!`;
+  const suggestion = Math.ceil(Math.random()*5);
+  document.getElementById('ai-suggestion').innerText = `AI Suggestion: Try ${suggestion} more refills this week to save more bottles!`;
+}
+
+// AI Chat
+const chatbox = document.getElementById('chatbox');
+function sendMessage(){
+  const input = document.getElementById('userInput');
+  const message = input.value.trim();
+  if(!message) return;
+
+  // Show user message
+  const userDiv = document.createElement('div');
+  userDiv.style.textAlign = 'right';
+  userDiv.style.margin = '5px';
+  userDiv.innerHTML = `<strong>You:</strong> ${message}`;
+  chatbox.appendChild(userDiv);
+
+  input.value = '';
+
+  // AI Response
+  const aiDiv = document.createElement('div');
+  aiDiv.style.textAlign = 'left';
+  aiDiv.style.margin = '5px';
+  aiDiv.innerHTML = `<strong>EcoBot:</strong> ${getAIResponse(message)}`;
+  chatbox.appendChild(aiDiv);
+
+  chatbox.scrollTop = chatbox.scrollHeight;
+}
+
+// Preloaded AI knowledge about Refill Revolution
+function getAIResponse(message){
+  const msg = message.toLowerCase();
+
+  if(msg.includes('founders')) 
+    return 'Refill Revolution was founded in 2025 by Titus Mathew, Yatharth, Vivaan Agarwal, Aaradhya Soni, and Shreyansh Kumar.';
+  
+  if(msg.includes('importance')) 
+    return 'Reducing single-use plastic is important to protect wildlife, reduce pollution, and preserve the planet for future generations.';
+  
+  if(msg.includes('steps to save') || msg.includes('how to save'))
+    return 'You can save plastic by using a reusable bottle, refilling it whenever possible, tracking your impact, and spreading awareness.';
+  
+  if(msg.includes('features')) 
+    return 'The Smart Eco-Bottle has a UV sterilizer, refill tracker, AI suggestions, and a durable, eco-friendly design.';
+  
+  if(msg.includes('mission')) 
+    return 'Our mission is to reduce single-use plastic worldwide by empowering people to adopt sustainable habits effortlessly.';
+
+  return "I'm EcoBot! Ask me about the founders, steps to save, importance, or the Smart Eco-Bottle features.";
+}
+</script>
+
+</body>
+</html>
+
